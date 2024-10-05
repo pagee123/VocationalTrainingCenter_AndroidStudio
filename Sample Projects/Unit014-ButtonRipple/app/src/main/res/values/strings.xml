@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">按鈕的水波動畫</string>
+    <string name="btn_ripple">水波動畫按鈕</string>
+    <string name="btn_normal">一般按鈕</string>
+</resources>

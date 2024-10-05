@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProgressDialog範例</string>
+    <string name="start_progress_dialog">啟動ProgressDialog</string>
+</resources>

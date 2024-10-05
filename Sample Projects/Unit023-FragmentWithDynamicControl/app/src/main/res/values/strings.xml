@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">動態切換Fragment</string>
+    <string name="show_frag1">顯示Fragment1</string>
+    <string name="show_frag2">顯示Fragment2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">第一個Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="second_fragment">第二個Fragment</string>
+</resources>

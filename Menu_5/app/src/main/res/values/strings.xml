@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menu_5</string>
+
+    <string name="open">Open Drawer menu</string>
+
+    <string name="close">Close Drawer menu</string>
+
+</resources>

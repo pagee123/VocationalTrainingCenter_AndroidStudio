@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">文字動畫</string>
+    <string name="drop">文字掉落</string>
+    <string name="transparent">透明文字</string>
+    <string name="rotate">旋轉文字</string>
+    <string name="demo">示範Property Animation</string>
+    <string name="scale">放大文字</string>
+    <string name="shift">左右移動</string>
+    <string name="change_color">改變顏色</string>
+</resources>

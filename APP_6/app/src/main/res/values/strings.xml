@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APP_6</string>
+
+    <string name="drow">沒輸沒贏</string>
+    <string name="win">抓到炸彈魔了</string>
+    <string name="lose">手臂被炸掉了</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">婚姻建議</string>
+    <string name="gender">性別：</string>
+    <string name="age">年齡：</string>
+    <string name="suggestion">建議</string>
+    <string name="not_hurry">還不急。</string>
+    <string name="get_married">趕快結婚！</string>
+    <string name="find_couple">開始找對象。</string>
+    <string name="male">male</string>
+    <string name="radbtn_male">男生</string>
+    <string name="radbtn_female">女生</string>
+    <string name="radbtn_male_age1">小於28歲 - Male</string>
+    <string name="radbtn_male_age2">28~33歲 - Male</string>
+    <string name="radbtn_male_age3">大於33歲 - Male</string>
+    <string name="radbtn_female_age1">小於25歲 - Female</string>
+    <string name="radbtn_female_age2">25~30歲 - Female</string>
+    <string name="radbtn_female_age3">大於30歲 - Female</string>
+</resources>

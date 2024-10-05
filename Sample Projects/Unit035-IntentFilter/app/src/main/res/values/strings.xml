@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent Filter範例</string>
+    <string name="open_web_page">開啟網頁</string>
+    <string name="play_mp3">播放MP3</string>
+    <string name="show_image">顯示圖片</string>
+    <string name="title_my_image_activity">Image Activity</string>
+</resources>

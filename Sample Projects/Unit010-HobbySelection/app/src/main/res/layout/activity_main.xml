@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chkBoxMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/music"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxSing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sing"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxDance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dance"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxTravel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/travel"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxReading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reading"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxWriting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/writing"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxClimbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/climbing"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxSwim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/swim"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxExercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exercise"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxFitness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fitness"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/photo"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/food"
+                android:textSize="30sp" />
+
+            <CheckBox
+                android:id="@+id/chkBoxPainting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/painting"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtHobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

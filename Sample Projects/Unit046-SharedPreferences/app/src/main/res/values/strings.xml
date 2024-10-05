@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">猜拳遊戲</string>
+    <string name="player">玩家出拳</string>
+    <string name="computer">電腦出拳</string>
+    <string name="scissors">剪刀</string>
+    <string name="stone">石頭</string>
+    <string name="paper">布</string>
+    <string name="win">恭喜，你贏了！</string>
+    <string name="lose">很可惜，你輸了！</string>
+    <string name="draw">平手！</string>
+    <string name="show_result">顯示局數統計資料</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EX_2</string>
+    <string name="taipei_food1">大鵬壽司</string>
+    <string name="taipei_food2">肉多多西門店</string>
+    <string name="taipei_food3">天母藏王鍋物</string>
+    <string name="newtaipei_food1">酉時暮光</string>
+    <string name="newtaipei_food2">逸茶酒室</string>
+    <string name="newtaipei_food3">淂藝洋行</string>
+    <string name="taoyua_food1">饗厚牛排</string>
+    <string name="taoyua_food2">ABV 日式居酒館</string>
+    <string name="taoyua_food3">永芯茶檔 茶餐廳</string>
+</resources>

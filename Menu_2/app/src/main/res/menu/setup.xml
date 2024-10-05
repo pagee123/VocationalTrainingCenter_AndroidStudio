@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ChangePicture"
+        android:title="Change Picture" />
+
+    <item android:id="@+id/ChangeColor"
+        android:title="Change Color" />
+
+    <item android:title="ChangeText">
+        <menu>
+            <item android:id="@+id/Text1"
+                android:title="Text 1"/>
+            <item android:id="@+id/Text2"
+                android:title="Text 2"/>
+        </menu>
+    </item>
+
+    <item android:title="Drink"
+        android:icon="@drawable/latte"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="Black tea"
+                android:icon="@drawable/blacktea"
+                android:id="@+id/BlackTea"/>
+
+            <item android:title="Cola"
+                android:icon="@drawable/cola_1"
+                android:id="@+id/Cola"/>
+        </menu>
+    </item>
+
+    <item android:title="Anime"
+        app:showAsAction="withText|always">
+        <menu>
+            <item android:title="Friran"
+                android:icon="@drawable/frilan"
+                android:id="@+id/frilan"/>
+            <item android:title="Gate"
+                android:icon="@drawable/gate"
+                android:id="@+id/gate"/>
+        </menu>
+    </item>
+
+    <item android:title="About"
+        android:id="@+id/About"/>
+
+</menu>

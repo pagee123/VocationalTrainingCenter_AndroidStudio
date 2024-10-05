@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListView選單</string>
+
+    <string-array name="region_list">
+        <item>亞洲</item>
+        <item>美洲</item>
+        <item>歐洲</item>
+        <item>大洋洲</item>
+    </string-array>
+    <string name="region_selected">選擇的地區：</string>
+</resources>

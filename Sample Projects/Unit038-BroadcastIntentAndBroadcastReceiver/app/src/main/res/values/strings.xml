@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">廣播訊息</string>
+    <string name="reg_broadrecreiver">註冊MyBroadcastReceiver</string>
+    <string name="unreg_broadreceiver">取消MyBroadcastReceiver</string>
+    <string name="send_mybroadcast">傳送MY_BROADCAST</string>
+</resources>

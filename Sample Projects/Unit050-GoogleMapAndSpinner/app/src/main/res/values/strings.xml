@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="locations">
+        <item>台北101</item>
+        <item>中國長城</item>
+        <item>紐約自由女神</item>
+        <item>巴黎鐵塔</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">婚姻建議</string>
+    <string name="gender">性別：</string>
+    <string name="age">年齡：</string>
+    <string name="suggestion">建議</string>
+    <string name="not_hurry">還不急。</string>
+    <string name="get_married">趕快結婚！</string>
+    <string name="find_couple">開始找對象。</string>
+    <string name="male">male</string>
+
+    <string-array name="gender_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

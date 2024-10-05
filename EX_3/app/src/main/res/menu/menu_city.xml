@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/taipei"
+        android:title="台北" />
+    <item
+        android:id="@+id/newtaipei"
+        android:title="新北" />
+    <item
+        android:id="@+id/taoyuan"
+        android:title="桃園" />
+</menu>

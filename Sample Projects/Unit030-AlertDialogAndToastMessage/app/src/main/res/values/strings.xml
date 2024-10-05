@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertDialog和Toast訊息</string>
+    <string name="alert_dialog">AlertDialog</string>
+    <string name="toast_message">Toast訊息</string>
+</resources>

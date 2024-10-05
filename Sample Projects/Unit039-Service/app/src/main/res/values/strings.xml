@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Service範例App</string>
+    <string name="start_service">啟動 Service</string>
+    <string name="stop_service">停止 Service</string>
+    <string name="bind_service">連結 Service</string>
+    <string name="unbind_service">斷開 Service</string>
+    <string name="call_service_method">呼叫 myMethod()</string>
+</resources>
