@@ -48,10 +48,18 @@ public class TimeActivity extends AppCompatActivity {
         buttonTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                timeDialog = new TimePickerDialog(TimeActivity.this,new MyTime(),now.get(Calendar.HOUR_OF_DAY)),
-                now.get(Calendar.MINUTE);
+                timeDialog = new TimePickerDialog(TimeActivity.this,new MyTime(),now.get(Calendar.HOUR_OF_DAY),
+                now.get(Calendar.MINUTE),false);
                 timeDialog.show();
             }
         });
+    }
+
+
+    private class MyTime implements TimePickerDialog.OnTimeSetListener {
+        @Override
+        public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+            textViewTime.setText("Dialog time : "+hourOfDay+" : "+minute);
+        }
     }
 }
