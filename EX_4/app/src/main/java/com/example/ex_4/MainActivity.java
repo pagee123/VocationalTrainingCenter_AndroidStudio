@@ -1,5 +1,6 @@
 package com.example.ex_4;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private TypedArray cityPic;
     private List<Map<String,Object>> listData;
     private SimpleAdapter adapter;
+    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,8 +59,35 @@ public class MainActivity extends AppCompatActivity {
         listViewData.setAdapter(adapter);
 
         listViewData.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch (position) {
+                    case 0:
+                        intent = new Intent(MainActivity.this, DisplayActivity.class);
+                        intent.putExtra("city",0);
+                        startActivity(intent);
+//                getResult.launch(intent);
+                        break;
+                    case 1:
+                        intent = new Intent(MainActivity.this, DisplayActivity.class);
+                        intent.putExtra("city",1);
+                        startActivity(intent);
+//                getResult.launch(intent);
+                        break;
+                    case 2:
+                        intent = new Intent(MainActivity.this, DisplayActivity.class);
+                        intent.putExtra("city",2);
+                        startActivity(intent);
+//                getResult.launch(intent);
+                        break;
+                    case 3:
+                        intent = new Intent(MainActivity.this, DisplayActivity.class);
+                        intent.putExtra("city",3);
+                        startActivity(intent);
+//                getResult.launch(intent);
+                        break;
+                }
 
             }
         });

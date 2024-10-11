@@ -23,7 +23,7 @@ public class DisplayActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+        //EdgeToEdge.enable(this);
         setContentView(R.layout.activity_display);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -54,6 +54,11 @@ public class DisplayActivity extends AppCompatActivity {
                 setTitle(R.string.taoyua);
                 imgViewCity.setImageResource(R.drawable.tauyuan);
                 textViewCity.setText(R.string.taoyua_info);
+                break;
+            case 3:
+                setTitle(R.string.xingju);
+                imgViewCity.setImageResource(R.drawable.xingju);
+                textViewCity.setText(R.string.xingju_info);
                 break;
         }
     }
