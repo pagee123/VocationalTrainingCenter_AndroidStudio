@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListView_1</string>
+
+    <string-array name="city">
+        <item>高雄市</item>
+        <item>新北市</item>
+        <item>臺中市</item>
+        <item>臺南市</item>
+        <item>臺北市</item>
+        <item>桃園市</item>
+        <item>嘉義市</item>
+        <item>新竹市</item>
+        <item>基隆市</item>
+        <item>斗六市</item>
+        <item>花蓮市</item>
+        <item>苗栗市</item>
+        <item>南投市</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ListViews_2</string>
+
+    <string-array name="android_name">
+        <item>Cupcake（紙杯蛋糕）</item>
+        <item>Donut（甜甜圈）</item>
+        <item>Eclair（閃電泡芙）</item>
+        <item>Froyo（優格冰淇淋）</item>
+        <item>Gingerbread（薑餅）</item>
+        <item>Honeycomb（蜂巢）</item>
+        <item>Ice Cream Sandwich（冰淇淋三明治）</item>
+        <item>Jelly Bean（雷根糖）</item>
+        <item>KitKat（奇巧巧克力）</item>
+        <item>Lollipop（棒棒糖）</item>
+        <item>Marshmallow（棉花糖）</item>
+        <item>Nougat（牛軋糖）</item>
+        <item>Oreo（奧利奧）</item>
+        <item>Pie（派）</item>
+    </string-array>
+
+    <string-array name="version">
+        <item>3</item>
+        <item>4</item>
+        <item>5&#8211;7</item>
+        <item>8</item>
+        <item>9&#8211;10</item>
+        <item>11&#8211;13</item>
+        <item>14&#8211;15</item>
+        <item>16&#8211;18</item>
+        <item>19&#8211;20</item>
+        <item>21&#8211;22</item>
+        <item>23</item>
+        <item>24&#8211;25</item>
+        <item>26&#8211;27</item>
+        <item>28</item>
+
+
+    </string-array>
+</resources>

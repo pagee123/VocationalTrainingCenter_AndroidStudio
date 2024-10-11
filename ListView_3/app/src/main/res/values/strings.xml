@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ListView_3</string>
+
+    <string-array name="food_name">
+        <item>Cola</item>
+        <item>French fries</item>
+        <item>Hamberger</item>
+        <item>KFC</item>
+        <item>Noodle</item>
+        <item>Steak</item>
+    </string-array>
+
+    <integer-array name="food_price">
+        <item>50</item>
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>200</item>
+    </integer-array>
+
+    <integer-array name="food_pic">
+        <item>@drawable/coca_cola</item>
+        <item>@drawable/french_fries</item>
+        <item>@drawable/hamburger</item>
+        <item>@drawable/kfc</item>
+        <item>@drawable/noodle</item>
+        <item>@drawable/steak</item>
+    </integer-array>
+</resources>
